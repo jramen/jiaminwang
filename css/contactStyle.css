@@ -112,6 +112,7 @@ footer {
     height: 35px;
     background-color: #8FB9A8;
     z-index:  -1;
+    position: fixed; 
 }
 
 .intro {
@@ -154,8 +155,4 @@ a.two:hover
     color:#F1828D;
     opacity=1;
     text-decoration: none;
-}
-
-body {
-    margin-bottom: 10%;
 }
