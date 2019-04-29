@@ -158,7 +158,7 @@ a.two:hover
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .navbar ul li{
         list-style-type:none;
         display: inline-block;
