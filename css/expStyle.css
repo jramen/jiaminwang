@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-
 *{
     padding: 0px;
     margin:0px;
     box-sizing: border-box;
 }
+
+footer {
+ bottom: 0;
+ width: 100%;
+}
+
 
 .header{
     height:0%;
@@ -24,6 +29,7 @@
     left: 0px;
     text-align: center;
     transition: 0.5s;
+    z-index: 900;
 }
 
 .navbar ul li{
@@ -37,18 +43,28 @@
     border-radius: 10px;
     transition: 0.2s;
     opacity: 1;
-    padding-top: 2.2%;   
+    padding-top: 2.5%;
 }
 
 .navbar ul li:hover{
     background: #F1828D; 
 }
 
+.intro {
+    text-align: left;
+    font-size:150%;
+    color: black;
+    letter-spacing: 1%;
+    margin: 15% 0;
+    margin-bottom: 0%;
+    padding-top: 3%;
+    padding-left: 35%;
+    padding-right: 10%
+}
 
 .rectangle {
     min-height: 120px;
     background-color: #8FB9A8;
-    
 }
 
 
@@ -71,12 +87,6 @@ a:hover
     color:#FFFFFF;
     opacity=1;
     text-decoration: none;
-}
-
-footer {
- position: fixed;
- bottom: 0;
- width: 100%;
 }
 
 .footer-comp {
@@ -105,14 +115,48 @@ footer {
 }
 
 .footer-rect {
-    bottom: 0;
     width: 100%;
     height: 35px;
     background-color: #8FB9A8;
     z-index:  -1;
-    position: fixed;
+    position: absolute;
 }
 
+p{
+    text-align: left;
+    font-size: 200%;
+    color: black;
+    letter-spacing: 1%;
+    padding-top: 3%;
+    padding-left: 5%;
+    margin-bottom: 10%;
+    font-family: 'Raleway', sans-serif; 
+}
+
+h1.first{
+    text-align:left;
+    font-size:400%;
+    color: black;
+    letter-spacing: 1%;
+    margin: 10% 0;
+    margin-bottom: 0%;
+}
+
+h1.two{
+    text-align:left;
+    font-size: 400%;
+    color: black;
+    letter-spacing: 1%;
+    margin: 5% 0;
+    margin-bottom: 0%;
+}
+
+list1 {
+    padding-left: 10%; 
+    font-size: 90%;
+    color: black; 
+    
+}
 
 @media (max-width: 600px) {
     .navbar ul li{
@@ -137,13 +181,14 @@ footer {
     
     .footer-img {
         height: 50%;
+        width: 13%;
         margin: 5%;
-        margin-right: 2 px;
+        margin-right: 2px;
         margin-left: 10px;
         border: none;
         float: left;
     }
-
+    
 
     .footer-text {
         font-size: 13px;
@@ -151,19 +196,44 @@ footer {
         text-align: center;	
         color: black;
         float: left;
+        font-family: 'Raleway', sans-serif;
+        
     }
 
-    .footer-rect {
-        bottom: 0;
-        width: 100%;
-        height: 30px;
-        background-color: #8FB9A8;
-        z-index:  -1;
-        position: fixed;
+   
+    h1.first{
+        padding-top: 19%;
+        text-align:left;
+        font-size:200%;
+        color: black;
+        letter-spacing: 1%;
+        margin: 10% 0;
+        margin-bottom: 0%;
+        font-family: 'Raleway', sans-serif; 
+
     }
+
+    h1.two{
+        text-align:left;
+        font-size: 200%;
+        color: black;
+        letter-spacing: 1%;
+        margin: 5% 0;
+        margin-bottom: 0%;
+        font-family: 'Raleway', sans-serif; 
+
+    }
+    p{
+        text-align: left;
+        font-size: 100%;
+        color: black;
+        letter-spacing: 1%;
+        padding-top: 3%;
+        padding-left: 5%;
+        font-family: 'Raleway', sans-serif; 
+    }
+    
+
 
 }
 
-
-
- 
