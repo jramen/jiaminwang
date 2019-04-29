@@ -1,20 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
+
 *{
     padding: 0px;
     margin:0px;
     box-sizing: border-box;
 }
-
-
-
-
-footer {
- bottom: 0;
- width: 100%;
-}
-
 
 .header{
     height:0%;
@@ -32,7 +24,6 @@ footer {
     left: 0px;
     text-align: center;
     transition: 0.5s;
-    z-index: 900;
 }
 
 .navbar ul li{
@@ -46,28 +37,18 @@ footer {
     border-radius: 10px;
     transition: 0.2s;
     opacity: 1;
-    padding-top: 2.5%;
+    padding-top: 2.2%;   
 }
 
 .navbar ul li:hover{
     background: #F1828D; 
 }
 
-.intro {
-    text-align: left;
-    font-size:150%;
-    color: black;
-    letter-spacing: 1%;
-    margin: 15% 0;
-    margin-bottom: 0%;
-    padding-top: 3%;
-    padding-left: 35%;
-    padding-right: 10%
-}
 
 .rectangle {
     min-height: 120px;
     background-color: #8FB9A8;
+    
 }
 
 
@@ -92,9 +73,8 @@ a:hover
     text-decoration: none;
 }
 
-
 footer {
- position: absolute;
+ position: fixed;
  bottom: 0;
  width: 100%;
 }
@@ -125,12 +105,14 @@ footer {
 }
 
 .footer-rect {
-    position: absolute;
+    bottom: 0;
     width: 100%;
     height: 35px;
     background-color: #8FB9A8;
     z-index:  -1;
+    position: fixed;
 }
+
 
 @media (max-width: 600px) {
     .navbar ul li{
@@ -151,20 +133,6 @@ footer {
     .rectangle {
         min-height: 90px;
         background-color: #8FB9A8;
-    }
-    
-    
-    .intro {
-        text-align: left;
-        font-size:150%;
-        color: black;
-        letter-spacing: 1%;
-        margin: 15% 0;
-        margin-bottom: 0%;
-        padding-top: 3%;
-        padding-left: 13%;
-        padding-right: 10%;
-        padding-bottom: 10%;
     }
     
     .footer-img {

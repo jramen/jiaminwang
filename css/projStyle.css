@@ -8,7 +8,6 @@
     box-sizing: border-box;
 }
 
-
 .header{
     height:0%;
     width:100%;
@@ -38,7 +37,7 @@
     border-radius: 10px;
     transition: 0.2s;
     opacity: 1;
-    padding-top: 2.5%;
+    padding-top: 2.2%;   
 }
 
 .navbar ul li:hover{
@@ -49,8 +48,8 @@
 .rectangle {
     min-height: 120px;
     background-color: #8FB9A8;
+    
 }
-
 
 
 a:link
@@ -75,33 +74,34 @@ a:hover
 }
 
 footer {
+ position: fixed;
  bottom: 0;
  width: 100%;
 }
 
 .footer-comp {
-	float: left;
-	width: 120px;
-	height: 30px;
-	transition: all 0.25s;
+    float: left;
+    width: 120px;
+    height: 30px;
+    transition: all 0.25s;
 }
 
 .footer-img {
-	height: 65%;
-	margin: 5%;
-	margin-right: 10px;
-	margin-left: 10px;
-	border: none;
-	float: left;
+    height: 65%;
+    margin: 5%;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    float: left;
 }
 
 
 .footer-text {
-	font-size: 14px;
-	line-height: 30px;
-	text-align: center;	
-	color: black;
-	float: left;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center; 
+    color: black;
+    float: left;
 }
 
 .footer-rect {
@@ -110,6 +110,7 @@ footer {
     height: 35px;
     background-color: #8FB9A8;
     z-index:  -1;
+    position: fixed;
 }
 
 p{
@@ -190,7 +191,7 @@ h1.two{
     .footer-text {
         font-size: 13px;
         line-height: 30px;
-        text-align: center;	
+        text-align: center; 
         color: black;
         float: left;
     }
@@ -222,6 +223,7 @@ h1.two{
         margin: 5% 0;
         margin-bottom: 0%;
     }
+    
     p{
         text-align: left;
         font-size: 100%;
