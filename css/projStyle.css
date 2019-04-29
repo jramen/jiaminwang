@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+
+.header{
+    height:0%;
+    width:100%;
+    margin:auto;
+    top: 0;
+    background-size:cover;
+}
+
+.navbar{
+    height: 15%;
+    width:100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.navbar ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 18px 55px;
+    color: white;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s;
+    opacity: 1;
+    padding-top: 2.5%;
+}
+
+.navbar ul li:hover{
+    background: #F1828D; 
+}
+
+
+.rectangle {
+    height: 120px;
+    background-color: #8FB9A8;
+}
+
+
+
+a:link
+{
+    color:#FFFFFF;
+    opacity=1; 
+    text-decoration: none;
+}
+
+a:visited
+{
+    color:#FFFFFF;
+    opacity=1;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color:#FFFFFF;
+    opacity=1;
+    text-decoration: none;
+}
+
+footer {
+ bottom: 0;
+ width: 100%;
+}
+
+.footer-comp {
+	float: left;
+	width: 120px;
+	height: 30px;
+	transition: all 0.25s;
+}
+
+.footer-img {
+	height: 65%;
+	margin: 5%;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: none;
+	float: left;
+}
+
+
+.footer-text {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;	
+	color: black;
+	float: left;
+}
+
+.footer-rect {
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background-color: #8FB9A8;
+    z-index:  -1;
+}
+
+p{
+    text-align: left;
+    font-size: 200%;
+    color: black;
+    letter-spacing: 1%;
+    padding-top: 3%;
+    padding-left: 10%;
+    font-family: 'Raleway', sans-serif; 
+}
+
+h1.first{
+    text-align:left;
+    font-size:600%;
+    color: black;
+    letter-spacing: 1%;
+    margin: 15% 0;
+    margin-bottom: 0%;
+}
+
+h1.two{
+    text-align:left;
+    font-size:600%;
+    color: black;
+    letter-spacing: 1%;
+    margin: 8% 0;
+    margin-bottom: 0%;
+}
+
+.parallax {
+    background: url("https://images.unsplash.com/photo-1495987976467-244d20b4b39a?ixlib=rb-1.2.1&w=1000&q=80") no-repeat fixed 100%;
+    background-size: cover;
+    padding-bottom: 10%;
+   
+}
+
+
+.parallax2 {
+    background: url("https://wallpapercave.com/wp/wp1910083.jpg") repeat fixed 100%;
+    background-size: cover;
+    padding-bottom: 10%;
+    
+}

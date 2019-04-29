@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+<link rel="stylesheet" type="text/css" href="css/abStyle.css">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Abilities</title>                           
+
+</head>
+
+
+    
+
+
+<body style="background-image: url(img/bg.png);">
+    <div class="header" >
+            <div class ="navbar" id = 'nav'></div>
+            <div class = "navbar" id= 'nav'>
+                <div class="rectangle"></div>
+                <div class="navbar ul li" id='nav'>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href= "experiences.html">Experiences</a></li>
+                        <li><a href="abilities.html"> Abilities </a></li>
+                        <li><a href="projects.html"> Projects </a></li>
+                        <li><a href="contact.html"> Contact </a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+
+    <h1 class="first">Computer Languages</h1>
+    <section class="list1">
+        <p> Lorem ipsum 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            dolor sit 
+        </p>
+        <p> Lorem ipsum 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            dolor sit 
+        </p>
+        <p> Lorem ipsum 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            dolor sit 
+        </p>
+        <p> Lorem ipsum 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            dolor sit 
+        </p>
+    </section>
+    
+    <h1 class="two">Spoken Languages</h1>
+    <section class="list1">
+        <p> Lorem ipsum 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            dolor sit 
+        </p>
+        <p> Lorem ipsum 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            dolor sit 
+        </p>
+    </section>
+    
+    <h1 class="two">Software</h1>
+    <section class="list1">
+        <p> Lorem ipsum 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            dolor sit 
+        </p>
+        <p> Lorem ipsum 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            dolor sit 
+        </p>
+        <p> Lorem ipsum 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            dolor sit 
+        </p>
+        <p> Lorem ipsum 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            dolor sit 
+        </p>
+    </section>
+    
+    <h1 class="two">Relevant Courses</h1>
+    <section class="list1">
+        <p> Lorem ipsum </p>
+        <p> Lorem ipsum </p>
+        <p> Lorem ipsum </p>
+        <p> Lorem ipsum </p>
+    </section>
+        
+    <div id="slider">
+        <div id="box">
+            <img src = "img/gal3.jpg">
+        </div>
+        
+        <button class="prev" onclick= "prevImage()";> <</button>
+        <button class="next" onclick="nextImage()"> ></button>
+    </div>
+
+    
+    <script type= "text/javascript">
+        var slider_content = document.getElementById('box');
+
+        // contain images in an array
+        var image = ['img/gal3','img/gal4', 'img/gal1', 'img/gal6', 'img/gal2',  'img/gal5'];
+
+        var i = image.length;
+
+
+        // function for next slide 
+
+        function nextImage(){
+            if (i<image.length) {
+                i= i+1;
+            }else{
+                i = 1;
+            }
+              slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+        }
+
+        
+        function prevImage(){
+            if (i<image.length+1 && i>1) {
+                i= i-1;
+            }else{
+                i = image.length;
+            }
+              slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+
+        }
+    </script>
+        
+        <footer>
+        
+        <div class = "footer-comp">
+            <img src="img/github.png" class = "footer-img">
+            <a href= "https://github.com/jramen/jiaminwang.git" target="_blank">
+                <div class= "footer-text" id= "github-footer">GitHub</div>
+            </a>
+        </div>
+        <div class = "footer-comp">
+            <img src="img/facebook.png" class = "footer-img">
+            <a href= "https://www.facebook.com/jiamin.wang9988" target="_blank">
+                <div class= "footer-text" id= "facebook-footer">Facebook</div>
+            </a>
+        </div>
+        <div class = "footer-comp">
+            <img src="img/ig.png" class = "footer-img">
+            <a href= "https://www.instagram.com/jammingwang/?hl=en" target="_blank">
+                <div class= "footer-text" id= "instagram-footer">Instagram</div>
+            </a>
+        </div>
+        <div class="footer-rect"></div>
+        
+    </footer>
+    
+</body></html>
+    
+</body></html>
